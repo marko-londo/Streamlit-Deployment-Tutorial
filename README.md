@@ -10,7 +10,7 @@ Step by step docker instructions
 
  - Click Download for Windows (or hover for other options), and download the
    **Docker Desktop Installer**.
-![Docker Download](App\Images\download.png)
+![Docker Download](App/Images/download.png)
 
 
  - Run the installer.
