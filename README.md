@@ -21,11 +21,11 @@ Step by step docker instructions
  - After restarting, open the Docker Desktop app and complete the installation
    by accepting the the terms and selecting "Use recommended settings" and
    clicking finish.
-   ![Complete Installation](App\Images\complete_installation.png)
+   ![Complete Installation](App/Images/complete_installation.png)
 - Create a new account or sign in to Docker using GitHub.
 - Once logged in your Docker account, your docker app should look something
   like this:
-  ![Docker App](App\Images\logged_in.png)
+  ![Docker App](App/Images/logged_in.png)
 
 
  - Open a terminal or command prompt and verify that Docker
@@ -36,7 +36,7 @@ Step by step docker instructions
    ```
    You should see something like this:
    
-   ![Docker Version](App\Images\docker_version.png)
+   ![Docker Version](App/Images/docker_version.png)
 
 - Test Docker by running the following command:
   ```cmd
@@ -44,4 +44,4 @@ Step by step docker instructions
   ```
      You should see something like this:
    
-   ![Hello World](App\Images\hello-world.png)
+   ![Hello World](App/Images/hello-world.png)
