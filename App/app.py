@@ -26,7 +26,7 @@ def main():
         "Docker Installation",
         "Google Cloud Platform (GCP) Account Setup",
         "Configure Google Cloud SDK",
-        "ML"
+        "Create a Dockerfile"
         ]
     selected_page = st.sidebar.radio("Select Page", page_options)
 
@@ -38,7 +38,7 @@ def main():
         page3.show()
     elif selected_page == "Configure Google Cloud SDK":
         page4.show()
-    elif selected_page == "ML":
+    elif selected_page == "Create a Dockerfile":
         page5.show()
 
 if __name__ == "__main__":

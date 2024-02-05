@@ -35,7 +35,7 @@ def show():
     st.markdown("""
 - Add a project name and click "CREATE" (You can ignore the Location option)
                 
-- You should get a notification that your projecy has been created.
+- You should get a notification that your project has been created.
 
 """
     )
