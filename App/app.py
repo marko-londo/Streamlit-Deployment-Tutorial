@@ -1,7 +1,7 @@
 import streamlit as st
 from Pages import page1,page2, page3, page4, page5
 
-favicon = "App\Images\favicon.ico"
+favicon = "Images/favicon.ico"
 
 st.set_page_config(
     page_title="ShaolinAI Streamlit-Deployment-Tutorial",
@@ -23,20 +23,20 @@ def main():
     st.sidebar.title("Navigation")
     page_options = [
         "Home",
-        "Text Processor",
-        "NLP Preprocessor",
-        "Network Graph",
+        "Docker Installation",
+        "Google Cloud Platform (GCP) Account Setup",
+        "Configure Google Cloud SDK",
         "ML"
         ]
     selected_page = st.sidebar.radio("Select Page", page_options)
 
     if selected_page == "Home":
         page1.show()
-    elif selected_page == "Text Processor":
+    elif selected_page == "Docker Installation":
         page2.show()
-    elif selected_page == "NLP Preprocessor":
+    elif selected_page == "Google Cloud Platform (GCP) Account Setup":
         page3.show()
-    elif selected_page == "Network Graph":
+    elif selected_page == "Configure Google Cloud SDK":
         page4.show()
     elif selected_page == "ML":
         page5.show()
