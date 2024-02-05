@@ -5,9 +5,7 @@ def show():
 
     st.markdown("""
 - Open a text editor on your computer (like Notepad on Windows, TextEdit on
-  macOS, or any code editor like VSCode). **Recommended**: VSCode will automatically detect the
-  following code as a Dockerfile, and prompt you to install the Docker
-  extension for easy use.
+  macOS, or any code editor like VSCode).
 - Copy and paste the following content into the text editor:
 ```
 # Use an official Python runtime as a parent image
@@ -36,4 +34,31 @@ CMD ["streamlit", "run", "app.py"]
     )
 
     st.image("Images/dockerfile.png", caption="Dockerfile Contents (VSCode)", width=800)
-    st.image("Images/dockerfile_explorer.png", caption="The Dockerfile Within Your App.py Folder", width=800)
+    st.image("Images/dockerfile_explorer.png", caption="The Dockerfile Within Your App.py Root Directory", width=800)
+
+    st.markdown("""
+Next we will need to create a requirements.txt. This will provide the
+  required packages to run your app.
+- Open a text editor on your computer.
+- Write the name of any packages required to run your app (streamlit, pandas,
+  etc) and their specific versions if necessary. It
+  should look something like this:
+                
+"""
+    )
+    st.image("Images/requirements-txt.png", caption="The Requirements.txt's Contents", width=400)
+
+    st.markdown("""
+- Verify it is saved within your App's root directory:
+                
+"""
+    )
+
+    st.image("Images/requirements.png", caption="The Requirements.txt Within Your App.py Root Directory", width=800)
+
+    st.markdown("""
+Now that you have the Dockerfile and requirements.txt ready, we can build a
+Docker Image.
+                
+"""
+    )

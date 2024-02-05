@@ -12,8 +12,8 @@ def show():
   separately from your main Google account), I would suggest creating a new
   one.
                 
-    Whether or not you choose to utilize the free credits, it is necessary to input
-    payment information. However, rest assured that the likelihood of incurring
+    Whether or not you choose to utilize the free credits, payment information
+    is required. However, rest assured that the likelihood of incurring
     charges is minimal when using a small dashboard app, provided you do not exert
     substantial computing power. You have the option to deactivate the app from the
     console, preventing access, and can configure notifications to alert you about
@@ -37,5 +37,11 @@ def show():
                 
 - You should get a notification that your project has been created.
 
+- In the left-hand navigation menu, click on "APIs & Services" and then
+  "Library."
+                
+- In the search bar, type "Artifact Registry API" and select it from the list.
+
+- Click the "Enable" button to enable the API.
 """
     )
