@@ -9,10 +9,10 @@ def show():
   Google Cloud CLI installer.
 - Install the Google Cloud CLI. Make sure bundle Python is selected.
 - After installation, run the following command to initialize the SDK:
-                ```cmd
-                gcloud init
-                ```                
-- When prompted, hit "y" and then enter to log in. A browswer window will open
+```cmd
+gcloud init
+```                
+- When prompted, hit "y" and then enter to log in. A browser window will open
   prompting you to log in. Use the account you created your GCP project with,
   and then hit "Continue" and "Allow".
 - You will be asked to select a cloud project to use. Type in the number next
